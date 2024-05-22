@@ -1,5 +1,3 @@
-import org.w3c.dom.ls.LSOutput;
-
 public class Main {
     public static void main(String[] args) {
         //Задание 1
@@ -19,10 +17,9 @@ public class Main {
         //Задание 3
         System.out.println("Чётные числа от 0 до 17:");
         for (int i = 0; i <= 17; i = i + 2) {
-            if (i % 2 == 0) { // подразумевается, что 0 - чётное число (делится на 2 без остатка и окружено нечётными числами)
+             // подразумевается, что 0 - чётное число (делится на 2 без остатка и окружено нечётными числами)
                 System.out.println(i);
             }
-        }
         System.out.println();
 
         //Задание 4

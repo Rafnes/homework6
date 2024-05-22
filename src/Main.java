@@ -17,9 +17,9 @@ public class Main {
         //Задание 3
         System.out.println("Чётные числа от 0 до 17:");
         for (int i = 0; i <= 17; i = i + 2) {
-             // подразумевается, что 0 - чётное число (делится на 2 без остатка и окружено нечётными числами)
+            // подразумевается, что 0 - чётное число (делится на 2 без остатка и окружено нечётными числами)
             System.out.println(i);
-            }
+        }
         System.out.println();
 
         //Задание 4
@@ -31,7 +31,7 @@ public class Main {
 
         //Задание 5
         System.out.println("Високосные годы с 1904 по 2096:");
-        for (int i = 1904; i <= 2096; i = i + 4){
+        for (int i = 1904; i <= 2096; i = i + 4) {
             System.out.println(i);
         }
         System.out.println();
@@ -54,7 +54,7 @@ public class Main {
         int sumPerMonth = 29000;
         int accumulated = 0;
         System.out.println("Накопления за год: ");
-        for (int i = 1; i <= 12; i++){
+        for (int i = 1; i <= 12; i++) {
             accumulated = accumulated + sumPerMonth;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + accumulated + " рублей");
         }
@@ -65,7 +65,7 @@ public class Main {
         int depositTotal = 0;
         System.out.println("Накопления за год под 12% годовых:");
         for (int i = 1; i <= 12; i++) {
-            depositTotal = depositTotal + depositTotal/100;
+            depositTotal = depositTotal + depositTotal / 100;
             depositTotal = depositTotal + deposit;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + depositTotal + " рублей");
         }

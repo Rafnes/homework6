@@ -18,7 +18,7 @@ public class Main {
         System.out.println("Чётные числа от 0 до 17:");
         for (int i = 0; i <= 17; i = i + 2) {
              // подразумевается, что 0 - чётное число (делится на 2 без остатка и окружено нечётными числами)
-                System.out.println(i);
+            System.out.println(i);
             }
         System.out.println();
 
